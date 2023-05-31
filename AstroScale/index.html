@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>AstroScaleDesigns</title>
+</head>
+<body>
+  <header class="navBar-container">
+    <div class="headerLogo">
+      <img class="headerLogo__img" src="./media/logo.png" alt="">
+      <a class="headerLogo__logoh1" href="">AstroScaleDesigns</a>
+    </div>
+    <nav class="nav-section" id="nav-menu">
+      <ion-icon name="close-outline" class="header-close" id="close-menu"></ion-icon>
+      <ul class="ul-container">
+          <li class="ul-container__li"><a class="link" href="#start">home</a></li>
+          <li class="ul-container__li"><a class="link" href="#prices">Prices</a></li>
+          <li class="ul-container__li"><a class="link" href="#job">Our Job</a></li>
+          <li class="ul-container__li"><a class="link" href="#commitment">Our Commitment</a></li>
+          <li class="ul-container__li"><a class="link" href="#about">About Us</a></li>
+          <li class="ul-container__li"><a class="link" href="#form">Contact Us</a></li>
+      </ul>
+  </nav>
+  <ion-icon name="menu-outline" class="header-toggle" id="toggle-menu"></ion-icon>
+</header>
+
+<section class="hero" id="start">
+  <!-- <div class="hero__ellipse"></div> -->
+  <img class="hero__img" src="./media/hand.png" alt="">
+  <img class="hero__img2" src="./media/astronaut.png" alt="">
+  <img class="hero__ellipse" src="./media/Ellipse 4.png" alt="">
+  <img class="hero__ellipse2" src="./media/Ellipse 4.png" alt="">
+  <img class="hero__ellipse3" src="./media/Ellipse 4.png" alt="">
+  <div class="containerText" data-aos="zoom-in">
+    <h1 class="containerText__h1">Design <br> is Power</h1>
+    <p class="containerText__p">We set no limits when it <br>
+      comes to designing for your <br>
+      business, you set the limit.
+    </p>
+    <button class="btn"><a class="btn__a" href="#form">Contact Us</a></button>
+  </div>
+
+  <div class="containerDesign" data-aos="zoom-in">
+    <img class="containerDesign__img" src="./media/design.png" alt="">
+  </div>
+</section>
+
+<!-- section Prices -->
+<section class="sectionPrices" id="prices">
+  <img class="sectionPrices__img" src="./media/astronait2.png" alt="">
+  <div class="priceText" data-aos="fade-up"
+  data-aos-duration="1000">
+    <h2 class="priceText__h2">Our <br> <span class="span-color">Prices</span></h2>
+  </div>
+
+  <div class="cardContainer" id="pricesMainContainer" data-aos="fade-up" data-aos-duration="1000">
+    <div class="cardInfo" id="pricesSubContainer">
+      <div class="container-img">
+        <img class="container-img__img" src="./media/coinimg.png" alt="">
+      </div>
+
+      <div class="container-package">
+        <h2  class="container-package__h2">Basic Package</h2>
+      </div>
+
+      <div class="container-paragraph">
+        <button class="button open-button">View More</button>
+
+        <dialog class="modal" id="modal">
+          <!-- <h2 class="modal__h2">Basic Package</h2>
+          <li class="modal__price">Price: $29.99/week</li>
+          <li class="modal__price">1 month contract</li>
+          <li class="modal__p1">AstroScale will create 1 design per week</li>
+          <li class="modal__p3">Choose 1 static design/animated</li> -->
+          <button class="close-button">Close Modal</button>
+          <!-- <form class="form" method="dialog">
+            <label>Your Name <input type="text"></label>
+            <label class="form-email">Your email <input class="email" type="email"></label>
+            <button class="submit-btn" type="submit">Submit Form</button>
+          </form> -->
+        </dialog>
+      </div>
+    </div>
+
+    
+    <!-- modal2 -->
+    <div class="cardInfo">
+      <div class="container-img">
+        <img class="container-img__img" src="./media/coinimg.png" alt="">
+      </div>
+      <div class="container-package">
+        <h2 class="container-package__h2">Normal Package</h2>
+      </div>
+
+      <div class="container-paragraph">
+        <!-- <p  class="container-paragraph__p">
+          The normal package offers <br>
+
+        </p> -->
+        <button class="button open-button" id="open-button2">View More</button>
+
+        <dialog class="modal" id="modal2">
+          <h2 class="modal__h2">Normal Package</h2>
+          <li class="modal__price">Price: $49.99/week</li>
+          <li class="modal__price">1 month contract</li>
+          <li class="modal__p1">2 days. 2 designs</li>
+          <li class="modal__p3">Choose 2 designs/same designs animated.
+          </li>
+          <button class="close-button" id="close-button2">Close Modal</button>
+          <!-- <form class="form" method="dialog">
+            <label>Your Name <input type="text"></label>
+            <label class="form-email">Your email <input class="email" type="email"></label>
+            <button class="submit-btn" type="submit">Submit Form</button>
+          </form> -->
+        </dialog>
+      </div>
+      <!-- modal3 -->
+    </div>
+    <div class="cardInfo">
+      <div class="container-img">
+        <img class="container-img__img" src="./media/coinimg.png" alt="">
+      </div>
+      <div class="container-package">
+        <h2 class="container-package__h2">Astro Package</h2>
+      </div>
+
+      <div class="container-paragraph">
+        <!-- <p  class="container-paragraph__p">
+          The basic package offers <br>
+
+        </p> -->
+        <button class="button open-button" id="open-button3">View More</button>
+
+        <dialog class="modal" id="modal3">
+          <h2 class="modal__h2">Astro Package</h2>
+          <li class="modal__price">Price: $249.99</li>
+          <li class="modal__price">1 Month Contract</li>
+          <li class="modal__p1">4 days </li>
+          <li class="modal__p2">1 design per day for 4 days a week</li>
+          <li class="modal__p3">4 animated designs or/and 4 static designs or 2 and 2.</li>
+          <button class="close-button" id="close-button3">Close Modal</button>
+          <!-- <form class="form" method="dialog">
+            <label>Your Name <input type="text"></label>
+            <label class="form-email">Your email <input class="email" type="email"></label>
+            <button class="submit-btn" type="submit">Submit Form</button>
+          </form> -->
+        </dialog>
+      </div>
+    </div>
+    <!-- modal4 -->
+    <div class="cardInfo">
+      <div class="container-img">
+        <img class="container-img__img" src="./media/coinimg.png" alt="">
+      </div>
+      <div class="container-package">
+        <h2 class="container-package__h2">Business Package</h2>
+      </div>
+
+      <div class="container-paragraph">
+        <!-- <p  class="container-paragraph__p">
+          The basic package offers <br>
+
+        </p> -->
+        <button class="button open-button" id="open-button4">View More</button>
+
+        <dialog class="modal" id="modal4">
+          <h2 class="modal__h2">Bussiness Package</h2>
+          <li class="modal__price">Price: $300</li>
+          <li class="modal__p1">3 Months Contract</li>
+          <li class="modal__p2">Designing every day for 5 days</li>
+          <li class="modal__p3">Designs will be created 2 per day, any style. 
+          </li>
+          <button class="close-button" id="close-button4">Close Modal</button>
+          <!-- <form class="form" method="dialog">
+            <label>Your Name <input type="text"></label>
+            <label class="form-email">Your email <input class="email" type="email"></label>
+            <button class="submit-btn" type="submit">Submit Form</button>
+          </form> -->
+        </dialog>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What we do -->
+<section class="our-business" id="job">
+  <div class="what-we-do">
+    <h1  class="what-we-do__h1" data-aos="fade-up" data-aos-duration="1000">What <span class="what-we-do__span">We Do</span></h1>
+    <p class="what-we-do__paragraph" data-aos="fade-up" data-aos-duration="1000">We specialize in small businesses anywhere in the world. 
+      We help them create content to any social media. Our main goal is to keep their Instagram/Facebook active 
+      so the page can reach more clients to their business. We ensure
+      every design is created based on the client's needs and look at
+      every detail to deliver the best content.
+    </p>
+  </div>
+  <div class="content-mainContainer" data-aos="fade-up" data-aos-duration="1000">
+    <div class="content">
+      <img class="content__img" src="./media/food-truck (1).png" alt="">
+      <h2 class="content__h2">Small Businesses</h2>
+      <p class="content__paragraph">Our team specializes in crafting social media content for businesses of all sizes,
+         freeing up their time to focus on their core operations.
+      </p>
+    </div>
+    <div class="content">
+      <img class="content__img" src="./media/social-media (1).png" alt="">
+      <h2 class="content__h2">Social Media</h2>
+      <p class="content__paragraph">Our designs are optimized for various social 
+        media platforms, including Instagram and Facebook, 
+        ensuring that they can be uploaded and shared seamlessly 
+        across multiple channels, reaching a wider audience.
+      </p>
+    </div>
+    <div class="content">
+      <img class="content__img" src="./media/prototype.png" alt="">
+      <h2 class="content__h2">Designs</h2>
+      <p class="content__paragraph">Collaborating closely with our clients, 
+        we empower them to choose the design style that suits their business needs. 
+        Our team then works tirelessly to create stunning designs that exceed their expectations.
+    </div>
+  </div>
+</section>
+
+<!-- Commitment Section -->
+<section class="commitment-section" id="commitment">
+  <div class="container-commitment" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="container-commitment__h2">Our <span class="span-color">Commitment</span></h2>
+  </div>
+
+  <div class="commitment-container" data-aos="fade-up" data-aos-duration="1000">
+    <img class="commitment-container__blur" src="./media/Ellipse 4.png" alt="">
+    <img class="commitment-container__blur2" src="./media/Ellipse 4.png" alt="">
+    <img class="commitment-container__img-astro" src="./media/astronaut.png" alt="">
+    <img class="commitment-container__img-moon" src="./media/Ellipse 13.png" alt="">
+    <img class="commitment-container__img" src="./media/Group 19.png" alt="image">
+    <p class="commitment-container__p">We set our goals to create
+      the most powerful custom 
+      designs for you. We visualize and 
+      conquer your ideas to make 
+      your business stand out with
+      our work - <span class="commitment-container__span">AstroScale</span> 
+    </p>
+  </div>
+</section>
+<!-- About -->
+<section class="aboutUS-Container" id="about">
+  <div class="about" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="about__h2">About <span class="span-color">Us</span></h2>
+  </div>
+
+  <div class="image" data-aos="fade-up" data-aos-duration="1000">
+    <img class="image__img" src="./media/astronait2.png" alt="">
+  </div>
+
+  <div class="about-text" data-aos="fade-up" data-aos-duration="1000">
+    <p class="about-text__paragraph">
+       AstroScale Designs is a team of talented designers dedicated to helping small businesses succeed through
+       creative design solutions. With years of experience and a passion for excellence,
+       we work closely with our clients to create visually stunning and effective designs that elevate their brands.
+    </p> 
+  </div>
+<!-- Display Block Part -->
+  <div class="about-block" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="about-block__h2">About <span class="span-color">Us</span></h2>
+  </div>
+
+  <div class="aboutBlock" data-aos="fade-up" data-aos-duration="1000" >
+    <p class="aboutBlock__paragraph">
+      AstroScale Designs is a team of talented designers dedicated to helping small businesses succeed through
+       creative design solutions. With years of experience and a passion for excellence,
+       we work closely with our clients to create visually stunning and effective designs that elevate their brands.
+    </p>
+    <img class="aboutBlock__img" src="./media/astronait2.png" alt="">
+  </div>
+
+  <div class="badges" data-aos="fade-up" data-aos-duration="1000">
+    <div class="badges-container" data-aos="fade-up" data-aos-duration="1000">
+      <img class="badges-container__trust" src="./media/trusted.png" alt="">
+      <p class="badges-container__p">Trust</p>
+    </div>
+
+    <div class="badges-container" data-aos="fade-up" data-aos-duration="1000">
+      <img class="badges-container__clock" src="./media/clock.png" alt="">
+      <p class="badges-container__p">Fast Designs</p>
+    </div>
+  </div>
+</section>
+
+<!-- message section -->
+<section class="contact" id="form" >
+  <div class="contact-h2" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="contact-h2__h2">Contact <span class="span-color">Us</span></h2>
+  </div>
+
+  <form class="input-message" id="" data-aos="fade-up" data-aos-duration="1000" action="https://formsubmit.co/astroscalead@gmail.com" method="POST">
+    <!-- <input type="hidden" name="_next" value="https://yourdomain.co/pages/thankYou.html"> -->
+    <input class="input-message__name" type="text" name="name" placeholder="Name" required>
+    <input class="input-message__email" type="email"  name="email" placeholder="Email Address" required>
+    <textarea class="input-message__textarea" name="Message" id="textarea" placeholder="Message" required></textarea>
+    <button class="input-message__btn" type="submit">Send</button>
+  </form>
+
+</section>
+
+<footer class="footer">
+  <div class="header-footer">
+    <img class="header-footer__img" src="./media/astronait2.png" alt="">
+    <h2 class="header-footer__h2">AstroScaleDesigns</h2>
+  </div>
+
+  <div class="links-container">
+    <div class="pages-footer">
+      <h2 class="pages-footer__h2">Pages</h2>
+      <a class="pages-footer__links" href="#start">Home</a>
+      <a class="pages-footer__links" href="#prices">Prices</a>
+      <a class="pages-footer__links" href="#job">Our Job</a>
+      <!-- <a class="pages-footer__links" href="">Gallery</a> -->
+      <a class="pages-footer__links" href="#commitment">Commitment</a>
+      <a class="pages-footer__links" href="#about">About Us</a>
+      <a class="pages-footer__links" href="#form">Contact Us</a>
+    </div>
+
+    <div class="icons-container">
+      <h2 class="icons-container__h2">Social Media</h2>
+      <a class="icons-container__icons" href="https://www.facebook.com/profile.php?id=100089790507842" target="_blank"><i class="fa fa-brands fa-facebook"></i>Facebook</a>
+      <a class="icons-container__icons" href="https://www.instagram.com/astroscaleads/" target="_blank"><i class="fa fa-brands fa-instagram"></i>Instagram</a>
+      <a class="icons-container__icons" href="https://telegram.me/astroscaledesigns"><i class="fa fa-brands fa-telegram"></i>Telegram</a>
+      <a class="icons-container__icons" href="mailto:astroscalead@gmail.com"><i class="fa fa-sharp fa-solid fa-envelope"></i>Gmail</a>
+    </div>
+    <img class="links-container__img" src="./media/astronaut.png" alt="">
+  </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="main.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1000
+  });
+</script>
+</body>
+</html>

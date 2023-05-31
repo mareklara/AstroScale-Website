@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Basic Package",
+        "Price" : "$29.99/week",
+        "Contract" : "1 Month Contrac",
+        "information" : "AstroScale will create 1 design per week",
+        "option": "Choose 1 static design/animated"
+    },
+    {
+        "name": "Normal Package",
+        "Price2" : "$49.99/week",
+        "Contract2" : "1 Month Contract",
+        "information2" : "AstroScale will create 2 designs. Choose 2 static designs/same designs animated.",
+        "option2": "Choose 2 static design/animated"
+    },
+    {
+        "name": "Astro Package",
+        "Price3" : "$249.99/week",
+        "Contract3" : "1 Month Contract",
+        "information3" : "1 design per day for 4 days a week",
+        "information3.3": "4 animated designs or/and 4 static designs or 2 and 2.",
+        "option3": "Choose 2 static design/animated"
+    },
+    {
+        "name": "Business Package",
+        "Price4" : "$300/week",
+        "Contract4" : "3 Month Contract",
+        "information4" : "Designing every day for 5 days a week.",
+        "information4.4": "4 animated designs or/and 4 static designs or 2 and 2.",
+        "option4": "Designs will be created 2 per day, any style."
+    }
+
+]
